@@ -1,0 +1,15 @@
+menu "Configuración del Ejemplo"
+
+  config LED_STRIP
+    bool "Habilita el uso de LED direccionable tipo WS2812"
+    default n
+
+  config LED_GPIO
+    int "Número de GPIO usado para el LED"
+    default 2
+
+  config BLINKY_DELAY_MS
+    int "Cantidad de demora en ms"
+    default 500
+
+endmenu
