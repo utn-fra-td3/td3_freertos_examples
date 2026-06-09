@@ -1,4 +1,4 @@
-#include "freertos/FreeRTOS.h"
+#include "freertos/FreeRTOS.h" // Se incluye libreria FreeRTOS para usar sus funciones
 #include "freertos/task.h"
 #include "esp_log.h"
 #include "esp_random.h"
